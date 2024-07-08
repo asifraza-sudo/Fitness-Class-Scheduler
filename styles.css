@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.scheduler {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.class-list {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.class-item {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #e0f7fa;
+    transition: background-color 0.3s ease;
+}
+.class-item:hover {
+    background-color: #b2ebf2;
+}
+.schedule {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 100px;
+}
+.schedule-item {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #f1f8e9;
+    transition: background-color 0.3s ease;
+}
+.schedule-item:hover {
+    background-color: #dcedc8;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.reminder-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.reminder-input input[type="text"], .reminder-input button {
+    margin-right: 10px;
+}

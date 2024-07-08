@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness Class Scheduler</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="scheduler">
+    <h2>Fitness Class Scheduler</h2>
+    <div class="class-list" id="class-list">
+        <div class="class-item" data-class="Yoga">Yoga</div>
+        <div class="class-item" data-class="Zumba">Zumba</div>
+        <div class="class-item" data-class="Pilates">Pilates</div>
+        <div class="class-item" data-class="Boxing">Boxing</div>
+    </div>
+    <div class="schedule" id="schedule">
+        <h3>My Schedule</h3>
+    </div>
+    <div class="user-profile">
+        <h3>My Profile</h3>
+        <div>
+            <img src="avatar.png" alt="Avatar" class="avatar" id="avatar">
+            <button id="change-avatar">Change Avatar</button>
+        </div>
+        <div class="reminder-input">
+            <input type="text" id="reminder-datetime" placeholder="Select Date and Time">
+            <button id="set-reminder">Set Reminder</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="script.js"></script>
+</body>
+</html>
